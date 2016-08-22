@@ -1,6 +1,6 @@
 {
   "name": "connect-loki",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Loki.js session store for Connect/Express",
   "main": "index.js",
   "scripts": {

@@ -37,6 +37,7 @@ Available parameters:
 
 -	`path` Path to the database file. Defaults to `./session-store.db`
 -	`autosave` Set `false` to disable save to disk. Defaults to `true`
+- `ttl` Duration in seconds to keep stale sessions. Set to `0` to disable TTL. Defaults to `1209600` (14 days)
 -	`logErrors` Whether or not to log client errors. Defaults to `false`
 	-	If `true`, a default logging function (`console.error`) is provided.
 	-	If a function, it is called anytime an error occurs (useful for custom logging)
