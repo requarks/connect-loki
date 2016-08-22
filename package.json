@@ -1,0 +1,38 @@
+{
+  "name": "connect-loki",
+  "version": "1.0.0",
+  "description": "A Loki.js session store for Connect/Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./tests/index.js && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage && rm -rf ./coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Requarks/connect-loki.git"
+  },
+  "keywords": [
+    "connect-loki",
+    "connect-lokijs",
+    "loki",
+    "lokijs",
+    "express-session",
+    "express-session-loki",
+    "express",
+    "expressjs"
+  ],
+  "author": "Nicolas Giard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Requarks/connect-loki/issues"
+  },
+  "homepage": "https://github.com/Requarks/connect-loki#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "lodash": "^4.15.0",
+    "lokijs": "^1.4.1"
+  }
+}
