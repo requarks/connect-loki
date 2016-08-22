@@ -1,7 +1,7 @@
 # connect-loki
 
 [![NPM version](http://img.shields.io/npm/v/connect-loki.svg)](https://www.npmjs.com/package/connect-loki)
-[![Build Status](https://travis-ci.org/Requarks/connect-loki.svg?branch=master)](https://travis-ci.org/Requarks/wiki)
+[![Build Status](https://travis-ci.org/Requarks/connect-loki.svg?branch=master)](https://travis-ci.org/Requarks/connect-loki)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/97c0f52f6fcc471caeccf45827ff3361)](https://www.codacy.com/app/Requarks/connect-loki)
 [![Dependency Status](https://gemnasium.com/badges/github.com/Requarks/connect-loki.svg)](https://gemnasium.com/github.com/Requarks/connect-loki)
 [![Known Vulnerabilities](https://snyk.io/test/github/requarks/connect-loki/badge.svg)](https://snyk.io/test/github/requarks/connect-loki)
