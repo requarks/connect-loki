@@ -1,10 +1,10 @@
 {
   "name": "connect-loki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Loki.js session store for Connect/Express",
   "main": "index.js",
   "scripts": {
-    "test": "snyk test && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec ./tests/index.js && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage && rm -rf ./coverage"
+    "test": "snyk test && ./node_modules/mocha/bin/_mocha -R spec ./tests/index.js"
   },
   "repository": {
     "type": "git",
