@@ -1,1 +1,1 @@
-module.exports = require('./lib/connect-loki');
+module.exports = require('./lib/connect-loki')
