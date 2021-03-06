@@ -1,6 +1,6 @@
 {
   "name": "connect-loki",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A Loki.js session store for Connect/Express",
   "main": "index.js",
   "scripts": {
@@ -27,17 +27,17 @@
   },
   "homepage": "https://github.com/Requarks/connect-loki#readme",
   "devDependencies": {
-    "colors": "^1.1.2",
-    "eslint": "^4.1.1",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.6.1",
-    "eslint-plugin-node": "^5.1.0",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "jest": "^20.0.4"
+    "colors": "^1.4.0",
+    "eslint": "^7.21.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^26.6.3"
   },
   "dependencies": {
-    "lokijs": "^1.5.0"
+    "lokijs": "^1.5.11"
   },
   "jest": {
     "collectCoverage": false,

@@ -1,5 +1,3 @@
-'use strict'
-
 const colors = require('colors')
 
 expect.extend({
@@ -11,7 +9,7 @@ expect.extend({
    */
   toESLint (received, argument) {
     if (received && received.errorCount > 0) {
-      let errorMsgBuf = []
+      const errorMsgBuf = []
       for (let i = 0; i < received.results.length; i++) {
         const result = received.results[i]
         if (result.errorCount <= 0) {
@@ -25,7 +23,7 @@ expect.extend({
       }
       if (errorMsgBuf.length > 0) {
         return {
-          message: () => (errorMsgBuf.join(`\n`)),
+          message: () => (errorMsgBuf.join('\n')),
           pass: false
         }
       }
@@ -38,9 +36,9 @@ expect.extend({
 
 describe('Code Linting', () => {
   it('should pass ESLint validation', () => {
-    const CLIEngine = require('eslint').CLIEngine
-    const cli = new CLIEngine()
-    let report = cli.executeOnFiles(['**/*.js'])
+    const ESLint = require('eslint').ESLint
+    const cli = new ESLint()
+    const report = cli.lintFiles(['**/*.js'])
     expect(report).toESLint()
   })
 })
